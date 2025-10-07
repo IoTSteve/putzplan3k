@@ -1,0 +1,22 @@
+# Ignore files und Verzeichnisse für Docker
+node_modules/
+npm-debug.log*
+.npm
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Development
+.vscode/
+*.md
